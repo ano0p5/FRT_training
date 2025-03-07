@@ -27,3 +27,4 @@ for page in range(1, 62):
 urls_collection.insert_one({"project_urls": all_urls})
 
 print(f"Total {len(all_urls)} URLs saved.")
+
